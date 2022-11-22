@@ -23,7 +23,7 @@ namespace Cinema
         public MainWindow()
         {
             InitializeComponent();
-            navFr.Navigate(new Pages.FirstHollPage());
+            navFr.Navigate(new Pages.FilmsListPage());
         }
     }
 }
